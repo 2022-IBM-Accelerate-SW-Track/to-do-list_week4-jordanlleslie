@@ -44,7 +44,7 @@ class AddTodo extends Component {
         id: this.state.id,
         task: this.state.content,
         currentDate: this.state.date,
-        dueDate: this.state.due
+        dueDate: this.state.duedate
       };
 
       Axios({
